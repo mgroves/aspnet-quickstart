@@ -6,7 +6,7 @@ tasks:
   command:  ./startcb.sh
 - name: Log use
   command: curl -s 'https://da-demo-images.s3.amazonaws.com/runItNow_outline.png?couchbase-example=aspnet-quickstart-repo&source=gitpod' > /dev/null
-- name: Dotnet setup
+- name: Start App and run tests
   command: ./run.sh
 
 # exposed ports
