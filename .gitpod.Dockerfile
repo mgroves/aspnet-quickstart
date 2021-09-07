@@ -1,4 +1,4 @@
-FROM deniswsrosa/couchbase7.0.beta-gitpod
+FROM couchbase 
 
 RUN apt-get update && export DEBIAN_FRONTEND=noninteractive &&\ 
  apt-get install -y wget &&\
